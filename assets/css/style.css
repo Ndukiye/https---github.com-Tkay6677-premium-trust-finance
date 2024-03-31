@@ -308,14 +308,16 @@ body.active { overflow: hidden; }
   z-index: 100;
 }
 
-.header.active {
-  position: fixed;
+ .header.active {
+  padding: 1rem;
+  z-index: 5;
+  position: sticky;
   top: -66px;
   background-color: var(--white);
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
   animation: slideIn 0.25s var(--cubic-out) forwards;
-}
+} 
 
 @keyframes slideIn {
 
