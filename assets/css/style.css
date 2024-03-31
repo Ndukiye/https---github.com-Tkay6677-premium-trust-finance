@@ -309,7 +309,7 @@ body.active { overflow: hidden; }
 }
 
  .header.active {
-  padding: 1rem;
+  padding: 1rem 0;
   z-index: 5;
   position: sticky;
   top: -66px;
