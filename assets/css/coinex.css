@@ -20133,3 +20133,20 @@ body.offcanvas-active {
 
 .top-1 {
   top: 1rem; }
+
+  @media (max-width: 575px) {
+    .logo, .btn-outline{
+      font-size: 1rem;
+    }
+     .navbar-toggler{
+      width: 0.5;
+      height: 0.5;
+    } 
+    }
+    
+     @media (max-width: 373px) {
+      .btn-outline{
+        font-size: 0.7rem;
+      }
+    } 
+    
